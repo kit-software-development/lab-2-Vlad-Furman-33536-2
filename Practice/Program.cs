@@ -25,11 +25,34 @@ namespace Practice
                 .Build();
 
             /*
-             * TODO #8: Собрать приложение. 
+             * TODO #8: Собрать приложение. 👌
              */
 
             /*
              * TODO #9: При помощи отладчика проверить типы и структуру объектов, адресованных переменными client и employee.
+             */
+
+             /*
+                Структура и типы объектов:
+
+                client {Practice.HR.Client}
+                  .Discount: 0.1 {float}
+                  .Name {Practice.Common.Name}
+                    .FirstName:  "Иван"                 {string}
+                    .FullName:   "Иванов Иван Иванович" {string}
+                    .Patronymic: "Иванович"             {string}
+                    .ShortName:  "И.И.Иванов"           {string}
+                    .Surname:    "Иванов"               {string}
+
+                employee {Practice.HR.Employee}
+                  .Department {Practice.Organization.Department}
+                    .Name: "Бухгалтерия" {string}
+                  .Name {Practice.Common.Name}
+                    .FirstName:  "Григорий"                  {string}
+                    .FullName:   "Сидоров Григорий Петрович" {string}
+                    .Patronymic: "Петрович"                  {string}
+                    .ShortName:  "С.Г.Сидоров"               {string}
+                    .Surname:    "Сидоров"                   {string}
              */
         }
     }
